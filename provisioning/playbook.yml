@@ -21,7 +21,6 @@
         - nginx
         - build-essential
         - nodejs
-        - npm
         - mongodb-org
         - openjdk-7-jre-headless
         - firefox
