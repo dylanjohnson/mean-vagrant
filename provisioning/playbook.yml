@@ -21,6 +21,7 @@
         - nginx
         - build-essential
         - nodejs
+        - npm
         - mongodb-org
         - openjdk-7-jre-headless
         - firefox
@@ -44,7 +45,7 @@
       shell: npm install -g bower
       sudo: yes
     - name: install npm packages
-      shell: cd /vagrant && npm install
+      shell: cd /vagrant && sudo npm install
       sudo: yes
       
     - name: start mongo
